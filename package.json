@@ -1,0 +1,16 @@
+{
+  "name": "Node-Authentication",
+  "author" : "Keith McCanless",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "jade": "*",
+    "q": "~0.9.6",
+    "mongodb": "*",
+    "bcrypt": "~0.7.6"
+  }
+}

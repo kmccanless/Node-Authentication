@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    form(action='/login', method='post')
+        fieldset
+            legend #{title}
+                include authenticationError
+                p
+                    input(type='text', name='user[name]', placeholder='Username')
+                p
+                    input(type='password', name='user[password]', placeholder='Password')
+                p
+                    input(type='submit', class='btn btn-info', value='Login')
